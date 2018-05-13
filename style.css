@@ -1,7 +1,14 @@
 body {
   /* background:#f8e8df; */
-background-image: url('flower-background.jpg');
-text-align:center;
+  background-image: url("flower-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align:center;
+}
+@media screen and (max-width: 400px) {
+  body{
+    background-image: url("field-background.jpg");
+  }
 }
 #flex-container {
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
